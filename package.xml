@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Shopgo_Core</name>
+    <version>1.0.6</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>A core module that other ShopGo modules depend on.</summary>
+    <description>ShopGo Core is a utility module that contains functions used by other ShopGo modules.&#xD;
+&#xD;
+You could also get the latest version of the module from:&#xD;
+&lt;a href="https://github.com/shopgo-me/shopgo-core" target="_blank"&gt;https://github.com/shopgo-me/shopgo-core&lt;/a&gt;</description>
+    <notes>The first release of ShopGo Core module.</notes>
+    <authors><author><name>ShopGo</name><user>ShopGo</user><email>support@shopgo.me</email></author></authors>
+    <date>2015-07-06</date>
+    <time>22:47:09</time>
+    <contents><target name="magecommunity"><dir name="Shopgo"><dir name="Core"><dir name="Helper"><file name="Abstract.php" hash="e1cd92ebe053c0911dfd187730ec166b"/><file name="Data.php" hash="c84877784eb944531eaae07862160672"/></dir><dir name="etc"><file name="config.xml" hash="66e0f912a47cccc971cc36f61eb16edc"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Shopgo_Core.xml" hash="89ed1d6c6b558de4c50a62681117c854"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
