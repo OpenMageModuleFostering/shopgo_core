@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Shopgo_Core",
+    "name": "OpenMageModuleFostering\/Shopgo_Core",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "A core module that other ShopGo modules depend on.",
     "authors": [
-    {
-        "name": "ShopGo",
-        "email": "support@shopgo.me"
-    }
-],
+        {
+            "name": "ShopGo",
+            "email": "support@shopgo.me"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
